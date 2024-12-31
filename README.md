@@ -4,41 +4,52 @@ AuthAPI is an authentication service built with ASP.NET Core Web API. It provide
 
 ## Features
 
-- **JWT Token Authentication**: Secure and stateless authentication mechanism.
-- **User Registration**: Allows new users to register with username/email and password.
-- **Login**: Allows users to authenticate and receive a JWT token.
-- **Logout**: Endpoint for logging out (invalidates the user's JWT token).
-- **Secure Routes**: Authenticated routes requiring a valid JWT token.
+- 🛡️ **JWT Token Authentication**: Secure and stateless authentication mechanism.
+- 🛡️ **User Registration**: Allows new users to register with username/email and password.
+- 🛡️ **Login**: Allows users to authenticate and receive a JWT token.
+- 🛡️ **Logout**: Endpoint for logging out (invalidates the user's JWT token).
+- 🛡️ **Secure Routes**: Authenticated routes requiring a valid JWT token.
 
-## Requirements
+### Prerequisites
 
-- [.NET 6.0](https://dotnet.microsoft.com/download/dotnet) or higher
-- An SQL Server instance for storing user credentials
+- 🛠️ .NET SDK 6.0 or later
+- 🗄️ MS SQL Server
+- 🖥️ Visual Studio or any preferred code editor
 
-## Setup and Installation
+### Installation
 
-1. **Clone the repository**:
-```
-git clone https://github.com/MahammadPiriyev/InternIntelligence_UserLoginFunctionality.git
-```
-2. **Install dependencies**:
+1. 🌀 Clone the repository:
+   ```bash
+   git clone https://github.com/MahammadPiriyev/InternIntelligence_UserLoginFunctionality.git
+   ```
 
-Open the solution in Visual Studio or use the .NET CLI to restore the required NuGet packages.
-```
-dotnet restore
-```
-3. **Configure the Database**:
+2. 📂 Navigate to the project directory:
+   ```bash
+   cd AuthAPI
+   ```
 
-- Set up the SQL Server database by configuring your connection string in `appsettings.json`.
-- Run the database migrations (if applicable) to create the required tables.
-```
-dotnet ef database update
-```
-4. **Run the API**:
-```
-dotnet run
-```
+3. 🔧 Restore the required packages:
+   ```bash
+   dotnet restore
+   ```
 
+4. 📝 Update the connection string in `appsettings.json`:
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=SchoolManagement;Trusted_Connection=True;"
+   }
+   ```
+
+5. 📦 Apply migrations and seed the database:
+   ```bash
+   dotnet ef database update
+   ```
+
+6. ▶️ Run the application:
+   ```bash
+   dotnet run
+   ```
+   
 ## API Endpoints
 
 ### 1. **POST /api/auth/register**
@@ -76,11 +87,15 @@ dotnet run
 
 ## Technologies Used
 
-- **ASP.NET Core 6.0** (or higher)
-- **Entity Framework Core** (for database interactions)
-- **JWT Authentication**
-- **SQL Server** (for user data storage)
+- ⚙️ **ASP.NET Core 6.0** (or higher)
+- 🔧 **Entity Framework Core** (for database interactions)
+- 🛡️ **JWT Authentication**
+- 🗄️ **SQL Server** (for user data storage)
+- 🗂️ **Version Control**: Git
 
-## License
+## 👤 Author  
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Mahammad Piriyev**  
+
+- LinkedIn: [My LinkedIn Profile](https://linkedin.com/in/mahammadpiriyev)  
+- Portfolio: [My Portfolio Website](https://mahammadpiriyev.onrender.com/)
