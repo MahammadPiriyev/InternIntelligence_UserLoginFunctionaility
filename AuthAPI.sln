@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI", "AuthAPI\AuthAPI.csproj", "{59D0CBF0-8F7B-4C7E-ADE8-267592F5A178}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D08C9D0-F2C0-4C3F-99AC-956687129B0F} = {4D08C9D0-F2C0-4C3F-99AC-956687129B0F}
+		{EA5CC5A5-5BA4-4525-B19A-A099559EC559} = {EA5CC5A5-5BA4-4525-B19A-A099559EC559}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI.DataAccess", "AuthAPI.DataAccess\AuthAPI.DataAccess.csproj", "{EA5CC5A5-5BA4-4525-B19A-A099559EC559}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D08C9D0-F2C0-4C3F-99AC-956687129B0F} = {4D08C9D0-F2C0-4C3F-99AC-956687129B0F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI.Domain", "AuthAPI.Domain\AuthAPI.Domain.csproj", "{4D08C9D0-F2C0-4C3F-99AC-956687129B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59D0CBF0-8F7B-4C7E-ADE8-267592F5A178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D0CBF0-8F7B-4C7E-ADE8-267592F5A178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D0CBF0-8F7B-4C7E-ADE8-267592F5A178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D0CBF0-8F7B-4C7E-ADE8-267592F5A178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA5CC5A5-5BA4-4525-B19A-A099559EC559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5CC5A5-5BA4-4525-B19A-A099559EC559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5CC5A5-5BA4-4525-B19A-A099559EC559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5CC5A5-5BA4-4525-B19A-A099559EC559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D08C9D0-F2C0-4C3F-99AC-956687129B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D08C9D0-F2C0-4C3F-99AC-956687129B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D08C9D0-F2C0-4C3F-99AC-956687129B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D08C9D0-F2C0-4C3F-99AC-956687129B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,61 @@
+# Ignore ASP.NET Core build outputs
+bin/
+obj/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer packages
+*.pdb
+*.exe
+*.dll
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET Core HTTPS development certificate (do not store in Git)
+*.pfx
+
+# User secrets directory (local development secrets stored here)
+secrets/
+
+# Npm/Yarn
+node_modules/
+
+# Coverage results
+coverage/
+
+# Microsoft Visual Studio for Mac
+.vscode/
+
+# User-specific files (macOS/Linux)
+.DS_Store
+*.swp
+.idea/
+
+# JetBrains Rider & ReSharper
+.idea/
+
+# Build directories
+.vs2019/
+.vs2017/
+.idea/
+
+# .NET Core specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
